@@ -1,1 +1,1 @@
-web: npm install && server.js
+web: npm install && node server.js

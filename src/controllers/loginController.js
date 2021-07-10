@@ -1,5 +1,4 @@
 //em desenvolvimento 
-//const utils = require('../utils/marcasUtils')
 const Login = require("../models/login")
 
 const bcrypt = require('bcrypt')

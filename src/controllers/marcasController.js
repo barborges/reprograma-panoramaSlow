@@ -24,18 +24,6 @@ const getById = async (req, res) => {
     }
 }
 
-/* const getByEstado = async (req, res)=>{
-    try {
-     const estadoEncontrado = await Marcas.findOne({estado: req.body.estado})
-      if(estadoEncontrado == null) {
-             return res.status(404).json({message: 'Estado não encontrado!'})
-      }
-         return res.json(estadoEncontrado)
-     } catch (err) {
-        return res.status(500).json({ message: error.message })
-     }
- }
- */
 const criaMarcas = async (req, res) => {
     const novaMarca = new Marcas({
         _id: new mongoose.Types.ObjectId(),
