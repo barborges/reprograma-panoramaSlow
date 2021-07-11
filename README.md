@@ -1,17 +1,6 @@
 # nome do projeto: Panorama Slow - [API] pesquisador de marcas de perqueno porte slow fashion no Brasil e seu índice de transparência (ITMB).
 
 
- **To do list**
-
-- [x]  Fazer documentação;
-- [x]  Alinhar estrutura arquitetura;
-- [x]  Rota de apresentação do projeto;
-- [x]  /marcas deve retornar todas as marcas. Listar todas as marcas cadastradas;
-- [x]  Filtrar por ID;
-- [x]  Cadastrar nova marca;
-- [x]  Deletar marcas
-
-
 **Implementações Futuras**
 
 - [ ]  Índice de transparência de marcas/produtores locais;
