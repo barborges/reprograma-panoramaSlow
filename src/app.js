@@ -11,7 +11,6 @@ db.connect()
 const index = require("./routes/index")
 const marcas = require("./routes/marcasRoutes")
 const login = require("./routes/loginRoutes")
-//const tarefas = require('./routes/tarefas')
 
 app.use(cors())
 app.use(express.json())
